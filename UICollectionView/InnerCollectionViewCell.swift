@@ -7,7 +7,6 @@ class InnerCollectionViewCell: UICollectionViewCell {
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupViews()
-        setupConstraints()
     }
     
     required init?(coder: NSCoder) {
@@ -16,11 +15,6 @@ class InnerCollectionViewCell: UICollectionViewCell {
     
     func setupViews() {
         contentView.backgroundColor = .systemRed
-        
-    }
-    
-    func setupConstraints() {
-
     }
 }
 

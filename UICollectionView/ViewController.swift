@@ -14,13 +14,13 @@ class ViewController: UIViewController {
         
         return collection
     }()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupViews()
         setupConstraints()
     }
-
+    
     func setupViews() {
         view.addSubview(collectionView)
     }
